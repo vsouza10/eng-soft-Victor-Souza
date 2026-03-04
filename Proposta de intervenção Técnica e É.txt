@@ -1,0 +1,16 @@
+Proposta de intervenção Técnica e Ética
+
+O sistema de IA desenvolvido para triagem de currículos apresentou indícios de viés algorítmico, favorecendo determinados perfis demográficos com base em padrões históricos presentes nos dados de treinamento. Essa situação pode gerar discriminação indireta, além de riscos jurídicos relacionados ao Art.20 da LGPD, que garante ao cidadão o direito a revisão de decisões tomadas exclusivamente por processamento automatizado.
+Diante disso, propõe-se uma intervenção técnica e ética baseada em três medidas:
+
+Implementação do modelo Human-in-the-Loop
+O sistema deixará de tomar decisões finais automáticas, passando a atuar como ferramenta de apoio. O algoritmo apenas ranqueará candidatos, sendo obrigatória a revisão humana antes da decisão final. Isso reduz o risco jurídico e garante maior responsabilidade do processo seletivo.
+
+
+Auditoria e balanceamento dos dados
+Será realizada uma análise estatística dos dados de treinamento para identificar possíveis variáveis sensíveis ou padrões enviesados. Caso necessário, aplicar técnicas de balanceamento para reduzir distorções e aumentar a equidade do modelo.
+
+Transparência e explicabilidade 
+Implementar mecanismos que permitem explicar os critérios utilizados no ranqueamento, garantindo maior transparência para empresas clientes e candidatos fortalecendo a conformidade legal e ética.
+
+Essa abordagem permite equilibrar inovação tecnológica, conformidade com a LGPD e responsabilidade social, reduzindo riscos jurídicos e reputacionais sem comprometer totalmente o cronograma de lançamento.
