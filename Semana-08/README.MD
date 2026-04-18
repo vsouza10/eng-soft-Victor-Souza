@@ -1,0 +1,1 @@
+📄 [Ver atividade completa](./Documento de Requisitos de Software - HotelBelaVista-compactado.pdf)
