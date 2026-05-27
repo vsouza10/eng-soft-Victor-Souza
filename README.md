@@ -17,6 +17,8 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 - 📄 [Semana 04 - Métodos Ágeis e Histórias de Usuário](./semana-04/)
 - 📄 [Semana 05 - SCRUM e INVEST](./semana-05/)
 - 📄 [Semana 06 - Engenharia de Requisitos](./semana-06/)
--📄 Semana 07 - Conversa Funcionalidades e Documento Requisito
--📄 Semana 09 - PIM
--📄 Semana 10 - Exercícios de Revisão
+- 📄 [Semana 08 - Conversa Funcionalidades e Documento Requisito](./Documento de Requisitos de Software - HotelBelaVista-compactado.pdf)
+- 📄 [Semana 09 - PIM](./Atividade-Semana09.pdf)
+- 📄 [Semana 10 - Exercícios de Revisão](./Atividade-Semana10.pdf)
+- 📄 [Semana 11 - Apressentação Microssistema](./Microssistemas.pdf) 
+- 📄 [Semana 12 - Projeto Final - Etapa 1](./Etapa1-Sistema de Alerta Inteligente.pdf)
