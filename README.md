@@ -17,3 +17,6 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 - 📄 [Semana 04 - Métodos Ágeis e Histórias de Usuário](./semana-04/)
 - 📄 [Semana 05 - SCRUM e INVEST](./semana-05/)
 - 📄 [Semana 06 - Engenharia de Requisitos](./semana-06/)
+-📄 Semana 07 - Conversa Funcionalidades e Documento Requisito
+-📄 Semana 09 - PIM
+-📄 Semana 10 - Exercícios de Revisão
