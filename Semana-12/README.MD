@@ -1,1 +1,1 @@
-📄 [Ver atividade completa](./Etapa1-Sistema de Alerta Inteligente.pdf)
+- 📄 [Semana 12 - Projeto Final - Etapa 1](./Semana-12/etapa1-alerta.pdf)
