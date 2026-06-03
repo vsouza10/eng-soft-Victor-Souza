@@ -21,4 +21,4 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 - 📄 [Semana 09 - PIM](./Atividade-Semana09.pdf)
 - 📄 [Semana 10 - Exercícios de Revisão](./Atividade-Semana10.pdf)
 - 📄 [Semana 11 - Apressentação Microssistema](./Microssistemas.pdf) 
-- 📄 [Semana 12 - Projeto Final - Etapa 1](./semana-12/Etapa1-Sistema-de-Alerta-Inteligente.pdf)
+- 📄 [Semana 12 - Projeto Final - Etapa 1](./Semana-12/Etapa1-SistemadeAlertaInteligente.pdf)
