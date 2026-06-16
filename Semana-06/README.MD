@@ -1,99 +1,135 @@
-# Atividade Engenharia de Software
+# Victor Emanuel de Souza
 
-## Integrantes
+## Engenharia de Software
 
-- Victor Emanuel de Souza
-- Danilo Rodrigues
-- Alexsandro
-- David Ribeiro
+# Conversa com o Cliente – Hotel Bela Vista
 
-## Semana 05
+## Entrevista
 
-### Cliente: David
+### Analista (Victor)
 
-Eu quero um aplicativo para uma academia.
+Olá! Tudo bem? Meu nome é Victor, sou analista de sistemas e estou aqui para entender melhor seu negócio e como posso te ajudar.
 
-O projeto precisa de:
+### Cliente
 
-- Tela de login para aluno individual.
-- Área para cadastro de aluno.
-- Área para visualização de modelos de treino.
-- Área para visualização de mensalidades.
-- Área para visualização dos exercícios do dia.
+Olá, Victor! Tudo bem, não está, mas vamos levando. O hotel cresceu e estou com dificuldades para organizar as reservas.
 
-### Requisitos do Aluno
+### Analista
 
-Eu, como usuário, preciso ter acesso a:
+Entendo. Como você faz esse controle hoje?
 
-- Treinos.
-- Exercícios.
-- Mensalidades.
+### Cliente
 
-### Requisitos do Administrador
+Uso um caderno grande. Faço uma tabela com dias e quartos e anoto tudo à mão.
 
-Eu, como administrador, preciso ter acesso a:
+### Analista
 
-- Todos os alunos cadastrados.
-- Mensalidades atrasadas.
-- Reposição de produtos.
-- Informações dos alunos cadastrados.
-- Área para acompanhamento dos exames trimestrais.
+E quais problemas você enfrenta?
 
-## Histórias de Usuário
+### Cliente
 
-### Aluno
+Vários:
 
-- Como aluno, quero fazer login no sistema para acessar minhas informações.
-- Como aluno, quero visualizar meus treinos para saber o que devo fazer.
-- Como aluno, quero ver os exercícios do dia para acompanhar minha rotina.
-- Como aluno, quero consultar minha mensalidade para saber se está paga ou pendente.
+- Rasuras quando alguém cancela.
+- Esquecimento de dados como CPF.
+- Confusão com tipos de quartos.
+- Reservas duplicadas.
+- Perda de informações em papéis soltos.
 
-### Administrador
+### Analista
 
-- Como administrador, quero cadastrar alunos para gerenciar a academia.
-- Como administrador, quero visualizar todos os alunos cadastrados para controle geral.
-- Como administrador, quero visualizar mensalidades atrasadas para realizar cobranças.
-- Como administrador, quero controlar a reposição de produtos para manter o estoque.
-- Como administrador, quero acessar informações dos alunos para acompanhamento.
-- Como administrador, quero acompanhar exames trimestrais para monitorar a saúde dos alunos.
+Quantos quartos você tem atualmente?
 
-## Aplicando o Método CARD
+### Cliente
 
-### C - Capture (Capturar)
+30 quartos, com tipos diferentes: simples, luxo e família.
 
-As necessidades foram capturadas a partir da conversa com o cliente:
+### Analista
 
-- Login de aluno.
-- Cadastro de alunos.
-- Visualização de treinos e exercícios.
-- Controle de mensalidades.
-- Gestão administrativa (alunos, produtos e exames).
+Você trabalha sozinho?
 
-### A - Approve (Aprovar)
+### Cliente
 
-Após validação com o cliente:
+Não. Minha filha e um funcionário também ajudam, mas cada um escreve de um jeito.
 
-- Todas as funcionalidades foram consideradas importantes.
-- O sistema deve atender alunos e administradores.
+### Analista
 
-#### Prioridades iniciais
+Você utiliza computador?
 
-1. Login
-2. Cadastro de alunos
-3. Visualização de treinos
+### Cliente
 
-### R - Refine (Refinar)
+Sim, prefiro o computador por causa da tela maior.
 
-As histórias foram organizadas e separadas por tipo de usuário.
+### Analista
 
-#### Aluno
+Você gostaria de um sistema com um painel visual dos quartos?
 
-- Acesso ao sistema.
-- Visualização de informações.
+### Cliente
 
-#### Administrador
+Sim! Algo que eu olhe e já entenda tudo.
 
-- Controle e gestão da academia.
+### Analista
 
-> O detalhamento técnico será realizado nas próximas etapas do projeto. 
+E controle de consumo dos hóspedes?
 
+### Cliente
+
+Seria essencial. Já perdi dinheiro com isso.
+
+### Analista
+
+Perfeito. Vou organizar isso em funcionalidades e te apresento.
+
+---
+
+# Histórias de Usuário
+
+- **HU01:** Como recepcionista, quero visualizar todos os quartos em uma tela com cores para identificar rapidamente o status de cada um.
+- **HU02:** Como recepcionista, quero registrar reservas sem risco de sobrescrever outras.
+- **HU03:** Como recepcionista, quero cadastrar hóspedes com nome, telefone e CPF.
+- **HU04:** Como recepcionista, quero visualizar entradas e saídas do dia.
+- **HU05:** Como recepcionista, quero registrar consumo de produtos por hóspede.
+- **HU06:** Como recepcionista, quero calcular automaticamente o valor total no checkout.
+- **HU07:** Como dono do hotel, quero eliminar o uso de papel para evitar perda de informações.
+- **HU08:** Como usuário, quero um sistema simples e fácil de usar.
+
+---
+
+# Validação
+
+### Analista
+
+Essas funcionalidades representam o que você precisa?
+
+### Cliente
+
+Sim, isso resolve meus problemas.
+
+---
+
+# Requisitos Funcionais
+
+- **RF01:** O sistema deve exibir um painel com todos os quartos e seus status (livre, ocupado e limpeza).
+- **RF02:** O sistema deve permitir o cadastro de reservas.
+- **RF03:** O sistema deve impedir reservas duplicadas para o mesmo quarto no mesmo período.
+- **RF04:** O sistema deve permitir o cadastro completo de hóspedes (nome, telefone e CPF).
+- **RF05:** O sistema deve exibir entradas e saídas do dia.
+- **RF06:** O sistema deve permitir o registro de consumo por hóspede.
+- **RF07:** O sistema deve calcular automaticamente o valor total no checkout.
+
+---
+
+# Requisitos Não Funcionais
+
+- **RNF01:** O sistema deve ser acessível via computador.
+- **RNF02:** O sistema deve possuir interface simples e intuitiva.
+- **RNF03:** O sistema deve responder em até 2 segundos.
+- **RNF04:** O sistema deve utilizar cores para facilitar a visualização dos status dos quartos.
+
+---
+
+# Regras de Negócio
+
+- **RN01:** Um quarto não pode ser reservado por mais de um hóspede no mesmo período.
+- **RN02:** O cadastro do hóspede deve conter CPF obrigatório.
+- **RN03:** Todo consumo deve ser vinculado ao hóspede durante a estadia.
