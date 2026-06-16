@@ -2,10 +2,41 @@
 
 ## Engenharia de Software
 
-A situação apresenta um problema ético grave, pois o sistema de IA está reproduzindo vieses discriminatórios dos dados de treinamento. De acordo com a cláusula 1.03 do Código de Ética, os engenheiros devem ser transparentes sobre as limitações do sistema, e a cláusula 3.01 reforça que o software deve atender ao interesse público, evitando causar danos à sociedade.
+# Modelo Espiral
 
-Lançar o sistema como está viola esses princípios e também representa alto risco jurídico, já que a LGPD garante revisão de decisões automatizadas, podendo gerar processos e multas.
+A queda dos drones poderia ter sido evitada porque o Modelo Espiral foca na análise de riscos em cada ciclo. Antes de avançar no desenvolvimento, os principais riscos técnicos (como falhas no controle dos drones, sensores ou comunicação) seriam identificados, testados e mitigados. Assim, erros críticos seriam detectados cedo, evitando prejuízos grandes no final.
 
-A melhor solução é adiar o lançamento por 4 semanas para realizar uma auditoria de dados, combinada com o uso de *human-in-the-loop* e técnicas de explicabilidade (*XAI*). Essa abordagem reduz vieses, aumenta a transparência e garante maior justiça nas decisões.
+## Ciclo da Espiral
 
-Assim, mesmo com um pequeno atraso e custo adicional, a empresa evita prejuízos maiores e cumpre sua responsabilidade ética e social.
+### Planejamento
+- Definir objetivos (controle da IA subaquática, navegação e sensores).
+
+### Análise de Riscos
+- Identificar riscos como falhas de pressão, comunicação subaquática e erros da IA.
+
+### Engenharia
+- Desenvolver protótipos e realizar testes em ambiente simulado.
+
+### Avaliação
+- Validar resultados com a equipe e ajustar antes do próximo ciclo.
+
+## Diagnóstico CMMI
+
+A Chaos-IT está no **Nível 1 – Inicial**.
+
+### Isso porque:
+- Não há processos definidos.
+- Cada desenvolvedor trabalha de forma diferente.
+- Não existe controle ou histórico de erros.
+- Os prazos não são planejados.
+
+## O que falta para chegar ao Nível 2
+
+- Padronizar processos básicos.
+- Definir prazos com planejamento.
+- Documentar atividades e erros.
+- Gerenciar melhor os projetos.
+
+## Conclusão
+
+A empresa precisa adotar o Modelo Espiral para reduzir riscos e evoluir seu nível no CMMI, garantindo mais organização, previsibilidade e qualidade nos projetos.
